@@ -1,0 +1,60 @@
+{
+  "Videos": [
+    {
+      "videoAuthor": "Joan Vives",
+      "videoDuration": "18:15",
+      "videoPlays": "3,389 plays",
+      "videoThumbnailUrl": "https://i.vimeocdn.com/video/788434820_390x220.jpg",
+      "videoTimeUploaded": "1 day ago",
+      "videoTitle": "The Beetle at the End of the Street"
+    },
+    {
+      "videoAuthor": "Eugen Merher",
+      "videoDuration": "02:50",
+      "videoPlays": "6,162 plays",
+      "videoThumbnailUrl": "https://i.vimeocdn.com/video/770969073_390x220.jpg",
+      "videoTimeUploaded": "2 months ago",
+      "videoTitle": "Dark Red"
+    },
+    {
+      "videoAuthor": "Callner Brothers",
+      "videoDuration": "14:20",
+      "videoPlays": "123K plays",
+      "videoThumbnailUrl": "https://i.vimeocdn.com/video/774748562_390x220.jpg",
+      "videoTimeUploaded": "2 months ago",
+      "videoTitle": "Adman"
+    },
+    {
+      "videoAuthor": "John Doe",
+      "videoDuration": "12:00",
+      "videoPlays": "809 plays",
+      "videoThumbnailUrl": "https://i.vimeocdn.com/video/778081508_390x220.jpg",
+      "videoTimeUploaded": "1 day ago",
+      "videoTitle": "The Ogre"
+    },
+    {
+      "videoAuthor": "Papy3D Productions",
+      "videoDuration": "09:41",
+      "videoPlays": "99.8K plays",
+      "videoThumbnailUrl": "https://i.ytimg.com/vi/23f2o4drQNU/hqdefault.jpg?sqp=-oaymwEiCNIBEHZIWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBxnkotBmOvP6QL5wQpGXpi00Vrgw",
+      "videoTimeUploaded": "2 years ago",
+      "videoTitle": "The Ogre"
+    },
+    {
+      "videoAuthor": "Sontenish Myers",
+      "videoDuration": "13:34",
+      "videoPlays": "133K plays",
+      "videoThumbnailUrl": "https://i.vimeocdn.com/video/730881655_390x220.jpg",
+      "videoTimeUploaded": "8 months   ago",
+      "videoTitle": "Cross My Heart"
+    },
+    {
+      "videoAuthor": "Arina Shabanova",
+      "videoDuration": "00:49",
+      "videoPlays": "2,563 plays",
+      "videoThumbnailUrl": "https://i.vimeocdn.com/video/786844997_390x220.jpg",
+      "videoTimeUploaded": "1 week ago",
+      "videoTitle": "Mom's Life"
+    }
+  ]
+}

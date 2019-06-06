@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:layout_marginTop="16dp">
+
+    <ImageView
+        android:id="@+id/video_thumbnail"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/title_textview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:text="River Gods: Stressed Out"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/video_thumbnail"
+        app:layout_constraintTop_toTopOf="@+id/video_thumbnail" />
+
+    <TextView
+        android:id="@+id/author_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:text="Peter Ferris Rosati"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/video_thumbnail"
+        app:layout_constraintTop_toBottomOf="@+id/title_textview" />
+
+    <TextView
+        android:id="@+id/plays_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:text="557 plays"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/video_thumbnail"
+        app:layout_constraintTop_toBottomOf="@+id/author_textview" />
+
+    <ImageView
+        android:id="@+id/dot_imageview"
+        android:layout_width="7dp"
+        android:layout_height="7dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/plays_textview"
+        app:layout_constraintStart_toEndOf="@+id/plays_textview"
+        app:layout_constraintTop_toTopOf="@+id/plays_textview"
+        app:srcCompat="@drawable/dot_icon" />
+
+    <TextView
+        android:id="@+id/uploaded_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="2 months ago"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/plays_textview"
+        app:layout_constraintStart_toEndOf="@+id/dot_imageview"
+        app:layout_constraintTop_toTopOf="@+id/plays_textview" />
+
+    <ImageView
+        android:id="@+id/duration_background"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/video_thumbnail"
+        app:layout_constraintEnd_toEndOf="@+id/video_thumbnail"
+        app:srcCompat="@drawable/gray_background" />
+
+    <TextView
+        android:id="@+id/duration_textview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:text="02:31"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/duration_background"
+        app:layout_constraintEnd_toEndOf="@+id/duration_background"
+        app:layout_constraintStart_toStartOf="@+id/duration_background"
+        app:layout_constraintTop_toTopOf="@+id/duration_background" />
+</android.support.constraint.ConstraintLayout>
